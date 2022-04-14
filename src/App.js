@@ -18,7 +18,7 @@ const App = () => {
       <Title >My Dictionary</Title>
       <Line />
       <Routes>
-        <Route path="/" element={<DictList />}/>
+        <Route path="/*" element={<DictList />}/>
         <Route path="/add" element={<AddDictionary/>}/>
         <Route path="/edit/:index" element={<EditDictionary/>}/>
       </Routes>
